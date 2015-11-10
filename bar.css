@@ -40,6 +40,7 @@
     -moz-animation: move 2s linear infinite;
     -o-animation: move 2s linear infinite;
     animation: move 2s linear infinite;
+	-ms-animation-name: demo;
 }
 
 /**
@@ -79,4 +80,8 @@
 
 @-webkit-keyframes move {
     to { background-position: 50px 50px; }
+}
+
+@-ms-keyframes demo {
+to { background-position: 50px 50px; }
 }
